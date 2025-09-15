@@ -30,16 +30,15 @@
     <section>
         <h2>Habilidades</h2>
         <div class="skills">
-            <div class="card">Python</div>
-            <div class="card">JavaScript</div>
-            <div class="card">SQL</div>
-            <div class="card">React.js</div>
-            <div class="card">Node.js</div>
-            <div class="card">Streamlit</div>
-            <div class="card">AWS</div>
-            <div class="card">Docker</div>
-            <div class="card">Git</div>
-            <div class="card">Linux</div>
+            <div class="card" data-skill="python">Python</div>
+            <div class="card" data-skill="java">Java</div>
+            <div class="card" data-skill="javascript">JavaScript</div>
+            <div class="card" data-skill="react">React</div>
+            <div class="card" data-skill="node">Node.js</div>
+            <div class="card" data-skill="docker">Docker</div>
+            <div class="card" data-skill="postgres">PostgreSQL</div>
+            <div class="card" data-skill="git">Git</div>
+            <div class="card" data-skill="linux">Linux</div>
         </div>
     </section>
 
@@ -63,6 +62,15 @@
     <footer>
         <p>&copy; 2025 Edu Guerreiro - World of Zumber</p>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="skillModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="skillTitle"></h3>
+            <p id="skillText"></p>
+        </div>
+    </div>
 
     <script src="./assets/js/script.js"></script>
 </body>
